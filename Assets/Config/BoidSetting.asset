@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a432b463f79fb8a40a37868448578c7f, type: 3}
+  m_Name: BoidSetting
+  m_EditorClassIdentifier: 
+  useComputerShader: 1
+  genRadius: 1
+  genNum: 200
+  maxAccelation: 10
+  minSpeed: 5
+  maxSpeed: 8
+  perceptionRadius: 5
+  avoidanceRadius: 2
+  targetWeight: 0
+  alignmentWeight: 1.91
+  separatonWeight: 2.23
+  cohesionWeight: 1.88
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 1
+  detectNum: 100
+  collisionAngle: 360
+  collisionRadius: 0.3
+  collisionDistance: 5
+  collisionWeight: 30
